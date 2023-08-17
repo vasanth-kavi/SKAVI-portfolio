@@ -401,6 +401,31 @@
     height: 100%;
     background-color: #173b6c;
 }
+.main-view .row .right .Project-section .container .row .col .project-3{
+    background-image: url('./img/project-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #173b6c;
+}
+.main-view .row .right .Project-section .container .row .col .project-4{
+    background-image: url('./img/project-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #173b6c;
+}
+.main-view .row .right .Project-section .container .row .col .project-3 .vist,.main-view .row .right .Project-section .container .row .col .project-4 .vist{
+    position: relative;
+    top: 87%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0;
+    display: none;
+}
+.main-view .row .right .Project-section .container .row .col .project-3:hover .vist,.main-view .row .right .Project-section .container .row .col .project-4:hover .vist{
+    display: inline-block;
+}
 .main-view .row .right .Project-section .container .row .col .project-1 .vist,.main-view .row .right .Project-section .container .row .col .project-2 .vist{
     position: relative;
     top: 87%;
