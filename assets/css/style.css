@@ -31,9 +31,11 @@
 }
 .main-view .row .right .menu-bor-action:hover .menu-bor-section{
     display: block;
+    position: fixed;
 }
 .main-view .row .right .menu-bor-action .menu-bor {
-    position: absolute;
+    position:fixed;
+    z-index: 2;
     right: 15px;
     top: 15px;
     padding-left: 12px;
